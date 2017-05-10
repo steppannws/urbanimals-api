@@ -34,8 +34,8 @@ if (!isProduction) {
 if(isProduction){
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  // mongoose.connect('mongodb://localhost/conduit');
-  mongoose.connect('mongodb://urbanimals:noanimals@ds153710.mlab.com:53710/urbanimals');
+  mongoose.connect('mongodb://localhost/urbanimals');
+  // mongoose.connect('mongodb://urbanimals:noanimals@ds153710.mlab.com:53710/urbanimals');
   // mongoose.connect('mongodb://borges:aleph@ds019976.mlab.com:19976/borges');
   mongoose.set('debug', true);
 }
