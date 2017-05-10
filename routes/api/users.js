@@ -96,7 +96,7 @@ router.post('/users', function(req, res, next){
   user.image = '/assets/images/circle-pet-'+rnd+'.png';
 
   user.save().then(function(){
-    return res.json({user: user.toAuthJSON()});
+    return res.json({user: user.toAuthJSON(), profile: user.toProfileJSONFor()});
   }).catch(next);
 });
 
