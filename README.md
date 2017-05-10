@@ -1,13 +1,10 @@
 <!-- # ![Node/Express/Mongoose Example App](project-logo.png) -->
 
-# urbanimals-api
-Urbanimals API
+# Urbanimals API
 
 > ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
 
 <a href="https://thinkster.io/tutorials/node-json-api" target="_blank"><img width="454" src="https://raw.githubusercontent.com/gothinkster/realworld/master/media/learn-btn-hr.png" /></a>
-
-This repo is functionality complete — PRs and issues welcome!
 
 # Getting started
 
@@ -17,8 +14,6 @@ To get the Node server running locally:
 - `npm install` to install all required dependencies
 - Install MongoDB Community Edition ([instructions](https://docs.mongodb.com/manual/installation/#tutorials)) and run it by executing `mongod`
 - `npm run dev` to start the local server
-
-Alternately, to quickly try out this repo in the cloud, navigate to this [glitch](http://glitch.com/edit/#!/realworld) and remix your own version by following the README instructions there.
 
 # Code Overview
 
