@@ -1,4 +1,7 @@
-# ![Node/Express/Mongoose Example App](project-logo.png)
+<!-- # ![Node/Express/Mongoose Example App](project-logo.png) -->
+
+# urbanimals-api
+Urbanimals API
 
 > ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
 
@@ -46,5 +49,5 @@ Requests are authenticated using the `Authorization` header with a valid JWT. We
 
 
 <br />
-
-[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+<!-- 
+[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io) -->
