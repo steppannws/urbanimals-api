@@ -1,5 +1,5 @@
 {
-  "name": "conduit-node",
+  "name": "urbanimals-api",
   "version": "1.0.0",
   "description": "Urbanimals API",
   "main": "app.js",
