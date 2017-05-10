@@ -25,16 +25,18 @@ app.use(bodyParser.json());
 app.use(require('method-override')());
 app.use(express.static(__dirname + '/public'));
 
-app.use(session({ secret: 'conduit', cookie: { maxAge: 60000 }, resave: false, saveUninitialized: false  }));
+app.use(session({ secret: 'urbanimals', cookie: { maxAge: 60000 }, resave: false, saveUninitialized: false  }));
 
 if (!isProduction) {
   app.use(errorhandler());
 }
-
+//mongodb://borges:aleph@ds153710.mlab.com:53710/urbanimals
 if(isProduction){
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  mongoose.connect('mongodb://localhost/conduit');
+  // mongoose.connect('mongodb://localhost/conduit');
+  mongoose.connect('mongodb://urbanimals:noanimals@ds153710.mlab.com:53710/urbanimals');
+  // mongoose.connect('mongodb://borges:aleph@ds019976.mlab.com:19976/borges');
   mongoose.set('debug', true);
 }
 
