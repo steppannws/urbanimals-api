@@ -1,6 +1,6 @@
 {
   "name": "urbanimals-api",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Urbanimals API",
   "main": "app.js",
   "scripts": {
