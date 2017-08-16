@@ -30,13 +30,10 @@ app.use(session({ secret: 'urbanimals', cookie: { maxAge: 60000 }, resave: false
 if (!isProduction) {
   app.use(errorhandler());
 }
-//mongodb://borges:aleph@ds153710.mlab.com:53710/urbanimals
 if(isProduction){
   mongoose.connect(process.env.MONGODB_URI);
 } else {
   mongoose.connect('mongodb://localhost/urbanimals');
-  // mongoose.connect('mongodb://urbanimals:noanimals@ds153710.mlab.com:53710/urbanimals');
-  // mongoose.connect('mongodb://borges:aleph@ds019976.mlab.com:19976/borges');
   mongoose.set('debug', true);
 }
 
